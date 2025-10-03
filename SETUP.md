@@ -7,8 +7,8 @@
 1. SSH into Server in Terminal using public IP address and private ssh key
 ssh -i ssh-key-2025-10-01.key opc@143.47.117.27
 2. Install Node.js using NVM with these commands
-curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
-  nvm install --lts
+   1. curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+   2. nvm install --lts
 3. Create folder for code files
 mkdir myinstance
 cd my instance
